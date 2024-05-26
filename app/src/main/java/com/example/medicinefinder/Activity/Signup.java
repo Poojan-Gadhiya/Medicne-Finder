@@ -1,5 +1,6 @@
 package com.example.medicinefinder.Activity;
 
+import android.annotation.SuppressLint;
 import android.app.ProgressDialog;
 import android.content.Intent;
 import android.os.Bundle;
@@ -33,6 +34,7 @@ public class  Signup extends AppCompatActivity {
     Spinner city_spinner;
     Button btn_sign_up;
     Toolbar toolbar;
+    @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
